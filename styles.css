@@ -1,0 +1,599 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(38, 35, 35);
+    color: #ffffff;
+    
+    
+}
+
+/* Header con su NAV*/
+
+header {
+
+    background-color: rgb(53, 56, 56);
+    display: flex;
+    position: sticky;
+    width: 100%;
+    height: 3.5em;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid rgb(72, 71, 71);
+
+
+}
+
+header .nav {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    position: absolute;
+    width: 100%;
+    height: 3em;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+nav a {
+    color: #dccbcb;
+    list-style: none;
+    text-decoration: none;
+}
+
+.downloadCV {
+    position: relative;
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 1.5em;
+    color: #ffffff;
+    background-color: #c93838;
+    border: 0;
+
+}
+
+.aCV {
+    color: #ffffff;
+}
+
+/* Comienzo main, titulo e imagen */
+
+.section1 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 30em;
+}
+
+.tituloYNombre {
+    display: flex;
+    position: relative;
+    width: 50%;
+    height: 30rem;
+    left: 0;
+
+    
+}
+
+.hi {
+    display: flex;
+    position: absolute;
+    width: 10em;
+    height: 2em;
+    color: #dccbcb;
+    margin-top: 8em;
+    margin-left: 2em;
+    font-size: 1.5em;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.nombre {
+    display: flex;
+    position: absolute;
+    width: 10em;
+    height: 3em;
+    margin-left: 5em;
+    margin-top: 10em;
+    color: #e72929;
+    font-size: 2em;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.imagenPerfil {
+    position: relative;
+    margin-top: 4em;
+    width: 10em;
+    height: 10em;
+    border-radius: 15px;
+    margin-bottom: 2.5em;
+    
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.parrafoPresentacion {
+    position: relative;
+    display: flex;
+    width: 50%;
+    height: 30em;
+    flex-direction: column; 
+    margin-left: 0em;
+    margin-bottom: 0;
+    text-align: center;
+    color: #dccbcb;
+    font-size: 1.05em;
+    font-family: 'League Spartan', sans-serif;
+    
+}
+
+/* Segunda seccion */
+
+
+
+.skills {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 6rem;
+    font-family: 'Gothic A1', sans-serif;
+    color: #efc701;
+    font-size: 2.5rem;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.section2 {
+    width: 100%;
+    height: 25rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+.carta1 {
+    position: relative;
+    flex-direction: column;
+    width: 15rem;
+    height: 20rem;
+    background-color: #dccbcb;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-right: 3em;
+}
+
+.img1 {
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.carta2 {
+    position: relative;
+    flex-direction: column;
+    width: 15rem;
+    height: 20rem;
+    background-color: #dccbcb;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-right: 3em;
+}
+
+.img2 {
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.carta3 {
+    position: relative;
+    flex-direction: column;
+    width: 15rem;
+    height: 20rem;
+    background-color: #dccbcb;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-right: 3em;
+}
+
+.img3 {
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.carta1 p,h5 {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.carta2 p,h5 {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.carta3 p,h5 {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+    
+/* Tercera seccion */
+
+
+
+.tituloPortfolio{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 6rem;
+    font-size: 2.5rem;
+    margin-top: 4rem;
+    justify-content: center;
+    color: #c93838;
+    font-family: 'League Spartan', sans-serif;
+
+}
+
+.trabajo1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 13em;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+.contenedorGitHub {
+    display: flex;
+    width: 20em;
+    height: 13em;
+    background-color: rgb(78, 78, 75);
+    justify-content: center;
+    opacity: 1;
+    border-radius: 15px;
+
+}
+
+.imagenCodo {
+    position: relative;
+    background-image: url(images/codoACodo.png);
+    width: 17.5rem;
+    height: 8rem;
+    border-radius: 15px;
+    align-self: flex-start;
+    margin-top: .5em;
+}
+
+.botonGitHub {
+    position: absolute;
+    width: 17.5rem;
+    height: 3rem;
+    align-self: flex-end;
+    margin-bottom: .7em;
+    background-color: #f92929;
+    border-radius: 15px;
+    border: 0;   
+
+    }
+
+    .botonGitHub a {
+        color: #ffffff;
+        list-style: none;
+        text-decoration: none;
+        font-size: 1.1em;
+        opacity: 1;
+        }
+    
+
+
+
+
+
+/* Cuarta seccion*/
+
+.contact {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 3rem;
+    font-size: 2.5rem;
+    margin-top: 4rem;
+    margin-bottom: 0;
+    justify-content: center;
+    color: #FA240A;
+
+}
+
+.contactWith {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 3rem;
+    font-size: 3em;
+    margin-top: 0rem;
+    justify-content: center;
+    margin-top: 0em;
+    margin-bottom: 3rem;
+    color: #FFDF1F;
+    font-family: 'Roboto Flex', sans-serif;
+    
+
+}
+
+.contenedorForm {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 20rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+
+}
+
+.primerRenglon {
+    position: relative;
+    width: 33rem;
+    height: 3rem;
+
+
+}
+
+.name, .email {
+    border-radius: 8px;
+    width: 15rem;
+}
+
+.segundoRenglon {
+    position: relative;
+    width: 33rem;
+    height: 3rem;
+
+}
+
+.phone, .subject {
+    border-radius: 8px;
+    width: 15rem;
+
+
+}
+
+
+
+.contenedorTextArea {
+    position: relative;
+    width: 24rem;
+    height: 14rem;
+}
+
+textarea {
+    margin-left: 0;
+    width: 23.5rem;
+    height: 7rem;
+    border-radius: 8px;
+    font-size: 1.2em;
+}
+
+.iconoConBoton {
+    display: flex;
+    flex-direction: row;
+}
+
+.sendMenssage {
+      background-color: #70C0FA;
+      width: 17.5rem;
+      height: 3rem;
+      border-radius: 15px;
+      color: #ffffff;
+      font-family: 'League Spartan', sans-serif;
+
+    
+}
+
+.iconoTelegram {
+    position: absolute;
+    width: 1.8rem;
+    height: 1.8rem;
+    align-self: center;
+    margin-left: 3rem
+
+}
+
+/* Footer con copyright */
+
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 7em;
+    justify-content: space-evenly;
+
+}
+
+.copyright {
+    position: absolute;
+    align-items: flex-end;
+    align-self: center;
+}
+
+/* Responsive */
+
+
+@media screen and (max-width: 864px) {
+
+    .section1 {
+        flex-direction: column;
+        height: 60rem;
+    }
+
+    .tituloYNombre {
+        width: 100%;
+        flex-wrap: wrap;
+
+      
+  }
+
+  .hi {
+    width: 100%;
+    margin-left: 10em;
+    margin-right:30em;
+    
+  }
+
+  .nombre {
+      margin-top: 8em;
+      margin-left: 9.5em;
+  }
+
+  .parrafoPresentacion {
+      width: 100%;
+      font-size: 1.5em;
+  }
+
+    .section2 {
+        height: 40rem;
+                
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+
+    .section1 {
+        height: 70rem;
+    }
+    
+
+    .hi {
+
+        margin-left: 5em;
+        margin-right:15em;
+        
+      }
+    
+    .nombre {
+          margin-top: 8em;
+          margin-left: 7em;
+      }
+
+    .name, .email {
+        border-radius: 8px;
+        width: 13rem;
+    }
+    .phone, .subject {
+        border-radius: 8px;
+        width: 13rem;
+    
+    
+    }
+
+    
+    textarea {
+        margin-left: 0;
+        width: 23.5rem;
+        height: 7rem;
+        border-radius: 8px;
+        font-size: 1.2em;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+
+
+
+    .section2 {
+        height: 80rem;
+        
+    }
+    
+    }
+
+@media screen and (max-width: 524px){
+
+.name, .email {
+    border-radius: 8px;
+    width: 15rem;
+}
+.phone, .subject {
+    border-radius: 8px;
+    width: 15rem;
+
+
+}
+
+}
+
+@media screen and (max-width: 485px) {
+
+    .section1 {
+        height: 90rem;
+    }
+
+    .hi {
+
+        margin-left: 1.5em;
+
+        
+      }
+    
+      .nombre {
+          margin-top: 8em;
+          margin-left: 2.5em;
+      }
+
+}
+
+
+
+@media screen and (max-width: 380px){
+
+    .hi {
+
+        margin-left: 1em;
+
+        
+      }
+    
+      .nombre {
+          margin-top: 8em;
+          margin-left: 1.5em;
+      }
+
+.aCV {
+
+    display: none;
+
+}
+
+.downloadCV {
+    display: none;
+}
+
+}
+
+
+
